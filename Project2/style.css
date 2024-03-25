@@ -68,14 +68,17 @@ html, body{
     width: 100%;
     height: 80%;
     object-fit: contain;
-    padding: 20px 100px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+#hero-text #heading{
+    margin: -350px 0px;
+    display: flex;
+    justify-content: center;
 }
 #hero-text #heading h1{
     z-index: 0;
-    position: absolute;
-    top: 35%;
-    left:45%;
-    transform: translate(-35%,-45%);
+    text-align: center;
     width: 40%;
     font-family: 'Holtwood One SC';
     font-size: 100px;
@@ -84,12 +87,15 @@ html, body{
     text-transform: uppercase;
     text-indent: 2em;
 }
+#hero-text #subscript{
+    width: 100%;
+    margin: 425px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 #hero-text #subscript h5{
     z-index: 0;
-    position: absolute;
-    top: 57%;
-    left: 48%;
-    transform: translate(-35%,-45%);
     width: 5%;
     height: 2%;
     background-color: #EDF738;
@@ -98,28 +104,101 @@ html, body{
     padding-top: 2.5px;
     padding-left: 5px;
 }
+#hero-text #about{
+    margin: -445px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 #hero-text #about h4{
     z-index: 0;
     font-weight: 100;
     font-size: 12px;
+    margin-left: 54%;
     text-transform: uppercase;
-    position: absolute;
-    top: 56.5%;
-    left: 56.5%;
-    transform: translate(-56.5%,-56.5%);
     color: #EDF738;
 }
 #hero-text #about h3{
     z-index: 0;
     font-weight: 300;
-    position: absolute;
-    top: 63%;
-    left: 59.2%;
-    transform: translate(-63%,-59.2%);
+    margin-left: 54%;
     color: #EDF738;
 }
-#hero-text #subscript{
+
+#part2 #title{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#part2 #title #p1{
+    display: flex;
+    gap: 20px;
+}
+#part2 #title #p1 h4{
+    font-size: 26px;
+    color:#fff;
+}
+#part2 #title #p1 h2{
+    font-size: 62px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#part2 #title #p2{
+    margin-top: 100px;
+}
+#part2 #title #p2 button{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    border: .8px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#part2 #circles{
+    z-index: -1;
+    width: 35%;
+    margin: -60px -35px;
+    height: 400px;
+    display: flex;
+    object-fit: contain;
+}
+#part2 #showcase{
     width: 100%;
-    text-align: center;
+    margin: -320px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#part2 #showcase #row{
+    width: 100%;
+    display: flex;
+}
+#row #photo{ 
+    height: 100%;
+    width: 100%;
+    margin: 5px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#tags{
+    display: flex;
+    gap: 15px;
+}
+#tags p{
+    font-size: 16px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background-color: white;
+}
+#caption{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
 }
 
+#part3{
+    margin-top: 400px;
+    width: 100%;
+}
